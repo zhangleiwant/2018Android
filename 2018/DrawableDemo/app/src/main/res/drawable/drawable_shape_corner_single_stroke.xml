@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--单边边框,可用于下划线绘制-->
+    <item>
+        <shape>
+            <solid android:color="@color/colorAccent"/>
+        </shape>
+    </item>
+
+    <item android:bottom="10dp">
+        <shape>
+            <solid android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+
+</layer-list>

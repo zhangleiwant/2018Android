@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:onClick="onLevelClick"
+                android:text="高级的drawable"/>
+        <!--实现小红点未读消息-->
+        <!--通过imageview的setImageLevel控制未读内容-->
+        <ImageView android:id="@+id/unread" android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/drawable_unread"/>
+
+        <ImageView android:id="@+id/img" android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_margin="8dp"
+                   android:background="@drawable/drawable_shape_corner_default_stroke"/>
+        <!--android:background="@drawable/drawable_shape1"/>-->
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@drawable/drawable_shape_gradient"
+                  android:padding="10dp"
+                  android:text="Helloween world "/>
+
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/drawable_shape_press"
+                android:padding="10dp"
+                android:text="Helloween world "/>
+
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="10dp"
+                android:stateListAnimator="@animator/btn_press_animtor"
+                android:text="Helloween world "/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_margin="8dp"
+                  android:background="@drawable/drawable_sanjiao"
+                  android:padding="10dp"
+                  android:text="Helloween world "/>
+
+        <ImageView android:id="@+id/round_img" android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+        <ImageView android:id="@+id/circle_img" android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</ScrollView>

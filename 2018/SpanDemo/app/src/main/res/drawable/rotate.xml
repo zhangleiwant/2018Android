@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--https://www.jianshu.com/p/72d31b7da85b-->
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/ic_launcher"
+                 android:duration="500"
+                 android:pivotX="50%"
+                 android:pivotY="50%"/>

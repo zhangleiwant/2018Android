@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ruwang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/ruwang/android/gitdemo/2018Android/2018/Chapter_3/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_48367dacab5f1f615e77411bcad39ebf513ae8ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ruwang/android/gitdemo/2018Android/2018/Chapter_3/app/libs/nineoldandroids.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2d6197c1913cc3eae6cd2e4137498fbec94971b6">
+        <dex dex="/Users/ruwang/android/gitdemo/2018Android/2018/Chapter_3/app/build/intermediates/pre-dexed/debug/nineoldandroids_f2c2e9342841751b37d32a2c624924227e8c7084.jar" />
+    </item>
+
+</items>

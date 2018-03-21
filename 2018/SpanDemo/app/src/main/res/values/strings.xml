@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SpanDemo</string>
+
+    <!--html测试文本-->
+    <string name="test_string">恭喜您！您的手机跑分为
+        <font color='#F50057'>
+            <big>
+                <big>
+                    <big>888888分</big>
+                </big>
+            </big>
+        </font>
+        ，已经超过全国
+        <font color='#00E676'>
+            <big>
+                <big>
+                    <big>99%</big>
+                </big>
+            </big>
+        </font>
+        的Android手机。
+    </string>
+    <!--使用 <![CDATA[ html文本]]>-->
+    <!--文本大小用big标签表示-->
+    <string name="html">
+        <![CDATA[ 恭喜你！你的手机跑分为<font color=#F50057><big>888分</big></font>]]]>
+    </string>
+</resources>

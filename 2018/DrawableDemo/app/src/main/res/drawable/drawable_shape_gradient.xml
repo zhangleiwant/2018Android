@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--渐变的背景色-->
+    <!--angle设置渐变的角度,只支持45度的倍数-->
+    <gradient android:angle="0"
+              android:endColor="@color/colorPrimary"
+              android:gradientRadius="20dp"
+              android:startColor="@color/colorAccent"
+              android:type="linear"/>
+
+</shape>

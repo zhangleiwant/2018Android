@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="45"
+        android:pivotX="135%"
+        android:pivotY="15%"
+        android:toDegrees="45">
+    <!--三角形的drawable 除了可以用9patch实现，还可以用两个图片拼接实现，还可以通过rotate实现-->
+    <!--倒三角-->
+    <shape android:shape="rectangle">
+        <solid android:color="@color/colorPrimary"/>
+    </shape>
+
+</rotate>

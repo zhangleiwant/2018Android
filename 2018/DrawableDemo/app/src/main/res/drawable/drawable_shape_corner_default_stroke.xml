@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--海报的默认图，带层级的drawable,一张纯背景的图，加上一张小图实现默认图的效果-->
+    <item>
+        <shape>
+            <solid android:color="#ffffff"/>
+        </shape>
+    </item>
+
+    <item android:width="40dp" android:height="30dp" android:gravity="center">
+        <bitmap android:gravity="center" android:src="@drawable/ic_launcher">
+        </bitmap>
+    </item>
+
+</layer-list>

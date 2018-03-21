@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.king.zlei.rxjavastore.MainActivity">
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create"/>
+
+    <Button
+        android:id="@+id/btn_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="from"/>
+
+    <Button
+        android:id="@+id/btn_just"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="just"/>
+    <Button
+        android:id="@+id/btn_map" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="map"/>
+
+    <Button
+        android:id="@+id/btn_flatmap" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="flatmap"/>
+    <Button
+        android:id="@+id/btn_zip"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="zip"/>
+
+    <Button
+        android:id="@+id/btn_zipwith" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="zipwith"/>
+
+    <Button
+        android:id="@+id/btn_retry" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="retry"/>
+
+    <Button
+        android:id="@+id/btn_retrywhen" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="retrywhen"/>
+
+    <Button
+        android:id="@+id/btn_filter" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="filter"/>
+
+
+
+</LinearLayout>

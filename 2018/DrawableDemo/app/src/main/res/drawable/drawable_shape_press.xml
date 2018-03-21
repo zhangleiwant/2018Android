@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--带按下效果的shape-->
+    <!--state_pressed：按下的效果。
+    state_checkable:是否可设置 checked 状态的效果。
+    state_selected：支持 selected 并且当前处于 selected 的效果。
+    state_checked：支持 checkeable 并且当前处于 checked 的效果。-->
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="8dp"/>
+            <solid android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/colorAccent"/>
+        </shape>
+    </item>
+
+
+</selector>
